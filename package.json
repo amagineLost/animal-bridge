@@ -1,9 +1,15 @@
 {
-  "name": "roblox-bridge-server",
+  "name": "roblox-bridge-backend",
   "version": "1.0.0",
+  "description": "Backend server for Roblox Bridge script communication",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "uuid": "^9.0.0"
   }
 }
